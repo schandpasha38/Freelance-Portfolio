@@ -1,0 +1,489 @@
+
+
+/*===========================
+			GLOBAL
+===========================*/
+
+
+* {
+	padding:0;
+	margin:0;
+	box-sizing: border-box;
+}
+
+html {
+    color: #fff;
+	background-color: #18BC9C;
+	font-family: 'Lato', 'Arial', sans-serif;
+	font-size: 24px;
+    font-weight: 300;
+    text-rendering: optimizeLegibility;
+}
+
+
+
+/*===========================
+			Header
+===========================*/
+
+
+.cover1 {
+	height: 100vh;
+}
+
+header {
+	height: 100px;
+	background-color: #262626;
+}
+
+.nav-bar h1 {
+	float: left;
+	margin-top: 35px;
+	margin-left: 120px;
+	font-size: 130%;
+	text-transform: uppercase;
+}
+
+nav {
+	float: right;
+	margin-right: 120px;
+}
+
+nav ul {
+	list-style: none;
+}
+
+nav li {
+	position: relative;
+	display: inline-block;
+	margin-right: 50px;
+	margin-top: 35px;
+}
+
+nav li a {
+	color: #fff;
+	font-weight: 400;
+	font-size: 70%;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+.sub2 {
+	position: absolute;	
+	color: #fff;
+	width: 100px;
+	float: left;
+	border: 1px solid grey;
+}
+
+.sub2 li {
+	margin-top: 5px;
+}
+
+nav li .sub2 {
+	display: none;
+}
+
+nav li:hover .sub2 {
+	display: block;
+	background-color: #2C3E50;
+}
+
+
+.container,img,h2,.star {
+	text-align: center;
+	max-width: 1140px;
+	margin: 0 auto;
+}
+
+.container {
+	margin-top: 20px;
+}
+
+.container2 img {
+	height: 200px;
+	width: auto;
+}
+
+.container h2 {
+	font-size: 300%;
+	font-weight: 900;
+}
+
+.star {
+	font-size: 200%;
+}
+
+p:nth-of-type(2) {
+	font-size: 90%;
+	font-weight: 300;
+}
+
+
+/*===========================
+		PORTFOLIO
+===========================*/
+
+
+.cover2 {
+	background-color: #FFFFFF;
+	text-align: center;
+	color: #2C3E50;
+	min-height: 100vh;
+}
+
+.cover2 h3 {
+	padding: 20px 0 0 0;
+	font-size: 180%;
+}
+
+.container2 {
+	position: relative;
+	width: 80%;
+	margin: 0 auto;
+}
+
+.img {
+	margin: 10px;
+	box-shadow: 0 0 15px grey;
+	cursor: pointer;
+}
+
+
+.star2 {
+	text-align: center;
+	font-size: 200%;
+	max-width: 1140px;
+	margin: 20px auto; 
+}
+
+
+/*===========================
+			ABOUT
+===========================*/
+
+
+.cover3 {
+	min-height: 100%;
+	text-align: center;
+	margin-bottom: 45px;
+}
+
+.cover3 h4 {
+	margin-top: 45px;
+	text-align: center;
+	font-size: 150%;
+}
+
+.cover3 .download-button a {
+	text-decoration: none;
+	font-size: 80%;
+	color: #0f715d;
+	font-weight: 300;
+}
+
+.cover3 .download-button img {
+	height: 15px;
+}
+
+.cover3 .download-button {
+	margin-top: 35px;
+	display: inline-block;
+	margin-right: 10px;
+	padding: 10px 15px;
+	background-color: #18BC9C;
+	border: 2px solid #fff;
+	border-radius: 3px;
+	box-shadow: 0 0 7px #fff;
+}
+
+.cover3 .download-button:hover {
+	background-color: #fff;
+	color: black;
+}
+
+.coloums {
+	display: inline-block;
+	margin: 0 auto;
+}
+
+.section1, aside {
+	float: left;
+	width: 350px;
+	margin: 0 10px;
+	padding: 10px;
+	font-size: 80%;
+}
+
+.clearfix {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+
+/*===========================
+		CONTACT ME
+===========================*/
+
+
+.cover4 {
+	background-color: #fff;
+	height: 100vh;	
+	color: #2C3E50; 
+	text-align: center;
+}
+
+.cover4 h4 {
+	display: inline-block;
+	margin-top: 50px;
+	font-size: 150%;
+}
+
+.form {
+	width: 50%;
+	height: auto;
+	margin: 0 auto;
+}
+
+.input {
+	font-family: 'Lato', 'Arial', sans-serif;
+	font-size: 80%;
+	margin-top: 35px;
+	width: 100%;
+	background: rgb(0,0,0,0);
+	border:none;
+	border-bottom: 1px solid grey;
+}
+
+textarea {
+	font-size: 80%;
+	color: grey;
+	margin-top: 20px;
+	width: 100%;
+	border:none;
+	border-bottom: 1px solid grey;
+}
+
+button {
+	height: 50px;
+    width: 100px;
+    background-color: #18bc9c;
+    margin:	10px !important;
+}
+
+
+/*===========================
+			FOOTER
+===========================*/
+
+
+footer {
+	background-color: #262626;
+	margin: 0 auto;
+	min-height: 200px;
+	text-align: center;
+}
+
+footer div {
+	display: inline-block;
+	margin: 50px 30px;
+	width: auto;
+}
+
+footer div h4 {
+	font-weight: 400;
+	margin-bottom: 10px;
+}
+
+
+footer div p {
+	font-size: 70%;
+	margin-bottom: 10px;
+}
+
+
+.social {
+	margin: 10px 30px;
+}
+
+
+.social a {
+	margin: 5px 5px;
+}
+
+.around img {
+	width: 30px;
+	height: auto;
+}
+
+.copyright {
+	background-color: black;
+	height: 50px;
+	font-size: 50%;
+	text-align: center;
+}
+
+.copyright p {
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+
+
+/*===========================
+		@mediaquery 920px
+===========================*/
+
+
+@media screen and (max-width: 920px){
+
+header {
+	height: 100px;
+    background-color: #262626;
+}
+
+.nav-bar h1 {
+	float: none;
+	margin:0;
+	padding-top: 10px;
+	text-align: center;
+}
+
+nav {
+	float: none;
+	margin:0;
+	padding:0;
+	text-align: center;	
+}
+
+nav li {
+	position: relative;
+    display: inline-block;
+    margin: 0;
+    padding: 15px 15px;
+}
+
+nav li a {
+    color: #fff;
+    font-weight: 300;
+    font-size: 80%;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+nav li a:hover {
+	padding-bottom: 7px;
+	transition: 0.3s;
+    border-bottom: 1px solid red;
+
+}
+
+nav li:hover .sub2 {
+	background-color: #262626;
+
+}
+
+.sub2 {
+	width: 106px;
+    float: left;
+    margin-top: 10px;
+    border: 1px solid grey;
+}
+
+.cover1 {
+	height: auto;
+}
+
+p:nth-of-type(2) {
+	padding-bottom: 75px;
+}
+
+.cover2 {
+	min-height: auto;
+}
+
+.container2 {
+	padding-bottom: 20px;
+}
+
+.cover4 {
+	height: auto;
+}
+
+.form {
+	padding-bottom: 10px;
+}
+
+}
+
+
+/*===========================
+		@mediaquery 920px
+===========================*/
+
+
+@media screen and (max-width: 750px){
+
+.container2 img {
+    width: 70%;
+	height: auto;
+}
+
+footer div {
+	display: block;
+	margin: 0 auto;
+	padding: 20px;
+	border-bottom: 2px solid #303030;
+}
+
+.social {
+	border: none;
+}
+
+}
+
+/*===========================
+		@mediaquery 620px
+===========================*/
+
+
+@media screen and (max-width: 750px){
+
+.coloums {
+	text-align: center;
+}
+
+.section1, aside {
+	display: block;
+	margin: 0 auto;
+	text-align: center;
+	float: none;
+}
+
+/*===========================
+		@mediaquery 500px
+===========================*/
+
+
+@media screen and (max-width: 500px){
+
+.coloums {
+	width: 100%;
+	text-align: center;
+	margin: 0 auto;
+}
+
+.section1, aside {
+	display: block;
+	float: none;
+    max-width: 80%;
+    margin: 20px auto;
+}
+
+.container h2 {
+	font-size: 180%;
+}
+
+}
